@@ -1,0 +1,23 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<style type="text/css">
+	
+	.st1{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+</style>
+
+<g id="Layer_2">
+	<line class="st1" x1="50" y1="50" x2="100" y2="50"/>
+	<polyline class="st1" points="26.5,73.5 50,50 26.5,25.5 	"/>
+	<polyline class="st1" points="74.5,25.5 50,50 74.5,73.5 	"/>
+	<polyline class="st1" points="50,11.1 50,50 13.12,50 	"/>
+	<path class="st1" d="M12.5,33.5"/>
+	<path class="st1" d="M-8.69,25.5"/>
+	<polyline class="st1" points="50.5,84.89 50,50 31.56,42.15 	"/>
+	<path class="st1" d="M-24.5,12.5"/>
+	<polyline class="st1" points="32.5,58.5 50,50 43.5,65.5 	"/>
+	<polyline class="st1" points="57.5,64.5 50,50 63.5,55.5 	"/>
+	<polyline class="st1" points="63.5,44.36 50.01,50.52 55.5,38.5 	"/>
+	<line class="st1" x1="50" y1="50" x2="45.17" y2="38.5"/>
+	<circle class="st1" cx="49.5" cy="49.5" r="7"/>
+</g>
+</svg>

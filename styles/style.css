@@ -1,0 +1,226 @@
+
+
+
+*{
+    font-family: 'VT323', monospace;
+   
+}
+
+html {
+    background-color:#000000;
+    background: linear-gradient(180deg, #000000,
+                                        #00cc55,
+                                        #00cc55,
+                                        #000000,
+                                        #880000,
+                                        #880000,
+                                        #000000,
+                                        #AAFFEE,
+                                        #AAFFEE,
+                                        #000000,
+                                        #CC44CC,
+                                        #CC44CC,
+                                        #000000,
+                                        #0000AA,
+                                        #0000AA,
+                                        #000000,
+                                        #EEEE77,
+                                        #EEEE77,
+                                        #000000,
+                                        #DD8855,
+                                        #DD8855,
+                                        #000000,
+                                        #664400,
+                                        #664400,
+                                        #000000,
+                                        #FF7777,
+                                        #FF7777,
+                                        #000000,
+                                        #AAFF66,
+                                        #AAFF66,
+                                        #000000,
+                                        #0088FF,
+                                        #0088FF,
+                                        #000000
+                                        );
+    background-size: 100px 320px;
+    background-position: 0px 30px;
+    animation-name: background;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes background{
+    from {
+        background-position: 0px 0px;
+    }
+    to {
+        background-position: 0px -320px;
+    }
+}
+
+
+body {
+    max-width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:40px;
+    padding-right:40px;
+    filter:blur(0.7px)
+}
+header {
+    display:flex;
+    height:90px;
+    background-color: #000000;
+    padding:10px;
+    border-bottom: solid 2px white;
+    justify-content: space-between;
+    flex-direction: row;
+    min-width: 510px;
+}
+
+navigation ul{
+    display:block;
+    margin-top:6px;
+
+}
+
+navigation li, navigation li a{
+    color:white;
+    display: block;
+    line-height: 26px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+navigation li a:hover{
+    filter:drop-shadow(
+        2px 2px 4px #ffffff
+    )
+}
+
+card {
+    display:flex;
+    width :300px;
+    height:80px;
+    background-color: rgb(0, 0, 0);
+   /* border-radius: 40px 0 0 40px; */
+   border: solid 2px white;
+   flex-direction : row;
+  /* filter:drop-shadow(4px 4px 60px #878787); */
+}
+  card img{
+        height:80px;
+   /*    border-radius: 40px 0 0 40px; */
+    }
+
+    card vline{
+        display: block;
+        width:4px;
+        height:100%;
+        background-color: white;
+    }
+
+    card nameArea {
+        display:flex;
+        background-color: rgb(0, 0, 0);
+        width:222px;
+        height:80px;
+        margin-left:0px;
+        flex-direction: column;
+        align-items: flex-start;
+      
+    }
+
+    card h1, card h2 {
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        color:rgb(219, 219, 219);
+        line-height: 40px;
+    }
+    
+    card h1 {
+        font-size: 24px;
+    }
+    card h2 {
+        font-size:18px;
+    }
+
+sectionDivider {
+    display: block;
+    height:4px;
+    width: 100%;
+    background-color: rgba(133, 179, 191, 255);
+}
+
+content{
+    display: block;
+    min-height:600px;
+    padding:10px;
+    background-color: #000000;
+    min-width: 510px;
+}
+
+article {
+    
+    width:500px;
+   
+    margin-top:30px;
+    margin-left:10px;
+    display:flex;
+    flex-direction: column;
+}
+
+article box{
+    
+    width: 500px;
+    
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+article box mainElement{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: calc(416px);
+    padding-left:20px;
+    padding-right:20px;
+    border: solid 2px white;
+    color:chartreuse;
+}
+
+mainElement h3{
+    margin-bottom:0px;
+}
+mainElement ul, mainElement p {
+    margin-top:10px;
+}
+
+mainElement img{
+    justify-self: end;
+}
+
+mainElemet div{
+    min-width: 50%;
+}
+
+article box .graphicElement{
+    
+    margin-top:2px;
+    display:flex;
+    flex-direction: column;
+    align-content: space-around;
+    max-width: 40px;
+   
+}
+article connectorElement{
+    min-height:30px;
+    width:500px;
+    margin-left:-20px;
+    margin-top:3px;
+    background-image: url(/graphics/articleSVGfooter.svg);
+}

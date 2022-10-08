@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ian Williamson - Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/svgStyles.css">
+    <script type="text/javascript" src="/scripts/wireScripts.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+        </style>
+</head>
+<body onload="addArticleWires()">
+    <header>
+        <div style="width:562px; display:flex; flex-direction: row;">
+            <card>
+                <img src="images/mountain.jpg">
+                <vline></vline> 
+                <nameArea>
+                    <h1>Ian Williamson</h1>
+                    <h2>Junior Developer</h2>
+                </nameArea>
+                
+            </card>
+            <img src="/graphics/cardSVGside.svg" height="80px" width="150px">
+        
+            <navigation>
+                <ul>
+                    <li style="margin-left:-100px"><a href="index.html">ABOUT</a></li>
+                    <li  style="margin-left:-80px"><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li   style="margin-left:-60px"><a href="#">EXPERIENCE</a></li>
+                </ul>
+            </navigation>
+        </div> 
+
+        
+    </header>
+   
+    <content>
+        <article>
+            <box>
+                <mainElement style="flex-direction:row; justify-content: space-between;">
+                    <div>
+                        <h3>Fencing Action</h3>
+                        <p>A system to log fencing actions performed during a bout.
+                            There are 6 aspects to the project.
+                        </p>
+                        <img src="images/FencingActionProto.jpeg" width="100%">
+                    
+                    </div>
+                    <ul>
+                        <li>The design of the datalogger</li>
+                        <li>The pcb design based on an ESP32</li>
+                        <li>Coding the Microcontroller in C++</li>
+                        <li>A server application to handle wireless IO and interface with the SQL Database</li>
+                        <li>A WPF client application to display current stats and produce reports and statistics</li>
+                    </ul>
+                    
+                   
+                </mainElement>
+                <div class="graphicElement"></div>
+            </box>
+            <connectorElement></connectorElement>
+        </article>
+
+        <article>
+            <box>
+                <mainElement style="flex-direction:row; justify-content: space-between;">
+                    <div>
+                        <h3><h3>S&C Companion</h3></h3>
+                        <p>A mobile based appliction developed in Net.Maui using C# 
+                            This provides front end access to a system for providing athletes
+                            with custom strength and conditioning plans as well as feed back to coaches
+                            It is a MVM system storing data in SQL using the Azure platform.
+                        </p>
+                    </div>
+                    <img src="images/SnCCompanion.jpg" width="200px">
+                    
+                    
+                   
+                </mainElement>
+                <div class="graphicElement"></div>
+            </box>
+            <connectorElement></connectorElement>
+        </article>
+
+
+
+
+
+    </content> 
+</body>
+
+        
+</html>

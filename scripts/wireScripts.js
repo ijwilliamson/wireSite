@@ -38,9 +38,9 @@ const randomBlock = (lastWires)=>{
 let rand="";
 do{
     rand = (Math.floor(Math.random()*5)+1).toString();
-} while (lastWires.includes(`/graphics/blocks/block${rand}.svg`))
+} while (lastWires.includes(`../graphics/blocks/block${rand}.svg`))
     
-    return `/graphics/blocks/block${rand}.svg`;
+    return `../graphics/blocks/block${rand}.svg`;
 }
 
 

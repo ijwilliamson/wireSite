@@ -222,5 +222,5 @@ article connectorElement{
     width:500px;
     margin-left:-20px;
     margin-top:3px;
-    background-image: url(/graphics/articleSVGfooter.svg);
+    background-image: url(../graphics/articleSVGfooter.svg);
 }
